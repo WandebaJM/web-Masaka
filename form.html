@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Enrolment form</title>
+</head>
+<body>
+    <form action="">
+        <h3>Fill in your details</h3>
+        <label>Surname:</label><input type="text" placeholder="Surname" name="surname" required><br> <br>
+        <label>Given Name:</label><input type="text" placeholder="Given Name" name="given name" required> <br> <br>
+        <label>Email:</label><input type="text" placeholder="email" name="" required> <br> <br>    
+        <label>Password:</label><input type="text" placeholder="Employee Password" name="employeepassword" required><br><br>
+        <label>Year of Study:</label><input type="text" placeholder="Year of Study" name="year of study" min="1" max="5" step=><br><br>
+        <label>Date of Birth:</label><input type="date" placeholder="DOB" name=""><br><br>
+        <label>Higher Institutions of Learning:</label><input type="file" placeholder="University" name=""><br><br>        
+        <label>A level:</label><input type="file" placeholder="UACE" name=""><br><br>
+        <label>A level:</label><input type="file" placeholder="UCE" name=""><br><br>
+        <label>Primary level:</label><input type="file" placeholder="PLE" name=""><br><br>
+        <label>National ID:</label><input type="file" placeholder="National ID" name=""><br><br>
+        <label>Employee card:</label><input type="file" placeholder="Employee card" name=""><br><br>                         
+        <label>Female</label>
+        <input type="radio" name="gender" value="female">
+        <label>Male</label>
+        <input type="radio" name="gender" value="male"><br><br>
+        <input type="checkbox" name="Rice" value="yes"> <label>Rice</label><br>  
+        <input type="checkbox" name="Meat" value="yes"> <label>Meat</label><br>
+        <input type="checkbox" name="Matooke" value="yes"> <label>Matooke</label><br><br>
+        
+        <label>Course: </label>        
+        <select name="course">
+            <Option Value="BCIT">Bachelor of Information Technology</Option>            
+            <Option Value="BCSC">Bachelor of Computer Science</Option>
+            <Option Value="BSEduc">Bachelor of Education</Option>
+            <Option Value="BLs">Bachelor of Law</Option>
+            <Option Value="BBA">Bachelor of Business Administration</Option>
+        </select><br><br>
+        
+        <textarea cols="60" rows="10" placeholder="Write a comment"></textarea> <br><br>
+        
+        <button>Submit</button>
+        <button>Cancel</button>
+
+
+    </form>
+</body>
+</html>
